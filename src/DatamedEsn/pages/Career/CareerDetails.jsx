@@ -1,10 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { careers } from "../../assets/assets";
-
 import OtherCareers from "./OtherCareers";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
+import { careers } from "../../../assets/assets";
 
 const CareerDetails = () => {
   const { id } = useParams();
@@ -13,7 +12,7 @@ const CareerDetails = () => {
   if (!careers)
     return <h1 className="text-center text-2xl">Opportunité non Trouvé</h1>;
   return (
-    <div>
+    <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
       <Navbar />
       {/* BreadCrom */}
       <div className="space-y-6">

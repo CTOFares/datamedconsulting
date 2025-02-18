@@ -3,7 +3,7 @@ import DatamedGroup from "../DatamedGroup/DatamedGroup";
 import { Route, Routes } from "react-router-dom";
 import Home from "../DatamedEsn/pages/Home/Home";
 import Career from "../DatamedEsn/pages/Career/Career";
-import OtherCareers from "../DatamedEsn/pages/Career/OtherCareers";
+import CareerDetail from "../DatamedEsn/pages/Career/CareerDetails";
 import Blog from "../DatamedEsn/pages/Blog/Blog";
 import BlogDetail from "../DatamedEsn/pages/Blog/BlogDetail";
 import Expertise from "../DatamedEsn/pages/Expertise/Expertise";
@@ -22,7 +22,7 @@ const AppRoutes = () => {
         <Route path="/" element={<DatamedGroup />} />
         <Route path="/esn/Accueil" element={<Home />} />
         <Route path="/esn/carriere" element={<Career />} />
-        <Route path="/esn/carriere/:id" element={<OtherCareers />} />
+        <Route path="/esn/carriere/:id" element={<CareerDetail />} />
         <Route path="/esn/Actualités" element={<Blog />} />
         <Route path="/esn/Actualités/:id" element={<BlogDetail />} />
         <Route path="/esn/Expertise" element={<Expertise />} />

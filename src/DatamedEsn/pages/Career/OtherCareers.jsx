@@ -41,7 +41,7 @@ const OtherCareers = () => {
           {careers.map((offre) => (
             <div
               key={offre.id}
-              onClick={() => navigate(`/carriere/${offre.id}`)}
+              onClick={() => navigate(`/esn/carriere/${offre.id}`)}
               className="cursor-pointer"
             >
               <Element Title={offre.titre} Paragraphe={offre.Taches} />

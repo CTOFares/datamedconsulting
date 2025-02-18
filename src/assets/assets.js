@@ -190,6 +190,23 @@ export const careers = [
     Diplome: "Bac+5",
     Langues: "Français, Anglais",
   },
+  {
+    id: 1003,
+    date: "20/01/2024",
+    titre: "Ingénieur DevOps",
+    Taches:
+      "Automatiser et optimiser les processus de déploiement et de gestion des infrastructures cloud. Travailler en étroite collaboration avec les développeurs pour intégrer des pratiques CI/CD efficaces. Assurer la surveillance et la maintenance des systèmes pour garantir une haute disponibilité.",
+    Exigences:
+      "Maîtrise des outils DevOps comme Docker, Kubernetes et Terraform. Bonne connaissance des environnements cloud (AWS, Azure ou GCP). Capacité à résoudre rapidement les problèmes techniques et à proposer des solutions évolutives.",
+    NiveauAccademique: "Bac+5 en informatique ou domaine technique.",
+    Localisation: "Télétravail",
+    TypedeTravail: "Flexible",
+    Contract: "CDI",
+    Salaire: "55K - 65K €/an",
+    Experince: "3 ans minimum",
+    Diplome: "Bac+5",
+    Langues: "Français, Anglais",
+  },
 ];
 
 export const projets = {};
