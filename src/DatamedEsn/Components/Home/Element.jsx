@@ -10,7 +10,7 @@ const Element = ({ Title, Paragraphe }) => {
           <p className="font-montserrat text-[20px] sm:text-[30px] font-semibold leading-[36.121px]">
             {Title}
           </p>
-          <p className="font-poppins text-[16px] font-normal leading-[19.264px]">
+          <p className=" font-montserrat  text-[16px] font-normal leading-[19.264px]">
             {Paragraphe}
           </p>
           <Link to="/contact" className="flex gap-4 items-center text-start">

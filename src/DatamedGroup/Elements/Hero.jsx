@@ -2,6 +2,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import { assets } from "../../assets/assets";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -39,10 +40,10 @@ const Hero = () => {
             L’Expertise au Service de Votre Transformation
           </p>
 
-          <a
+          <NavLink
             className="absolute bottom-[-50px] h-[60px] flex w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#0DB7E1] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            href="https://datamedcconulting.netlify.app/"
-            target="_blank"
+            to="/esn/Accueil"
+            
           >
             Voir Plus
             <svg
@@ -60,14 +61,13 @@ const Hero = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </NavLink>
         </div>
         <div className="w-[349px] h-[333px] space-y-4 items-center flex flex-col justify-center text-medium p-4   rounded-[15px] bg-white shadow-[0px_403px_113px_0px_rgba(23,58,109,0.00),0px_258px_103px_0px_rgba(23,58,109,0.01),0px_145px_87px_0px_rgba(23,58,109,0.05),0px_64px_64px_0px_rgba(23,58,109,0.09),0px_16px_35px_0px_rgba(23,58,109,0.10)] relative group">
           <img src={assets.datamedacademy} className="w-1/2" alt="" />
           <p
             className="text-black text-center font-montserrat text-[25px] font-semibold leading-[120.402%]"
-            href="https://datamedcconulting.netlify.app/"
-            target="_blank"
+            to="/esn/Accueil"
           >
             DATAMED ACADEMY
           </p>
@@ -76,9 +76,8 @@ const Hero = () => {
           </p>
 
           {/* a appears above the div but under the paragraph */}
-          <a
-            href="https://datamedcconulting.netlify.app/datameduniversity"
-            target="_blank"
+          <NavLink
+            to="/esn/Accueil"
             className="absolute bottom-[-50px] h-[60px] flex w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#0DB7E1] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
             Voir Plus
@@ -97,7 +96,7 @@ const Hero = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </NavLink>
         </div>
         <div className="w-[349px] h-[333px] space-y-4 items-center flex flex-col justify-center text-medium p-4   rounded-[15px] bg-white shadow-[0px_403px_113px_0px_rgba(23,58,109,0.00),0px_258px_103px_0px_rgba(23,58,109,0.01),0px_145px_87px_0px_rgba(23,58,109,0.05),0px_64px_64px_0px_rgba(23,58,109,0.09),0px_16px_35px_0px_rgba(23,58,109,0.10)] relative group">
           <img src={assets.datamedconnect} className="w-1/2" alt="" />
