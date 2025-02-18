@@ -2,7 +2,7 @@ import React from "react";
 
 const MainContact = () => {
   return (
-    <div className="sm:flex justify-end border-2 mt-9 gap-4">
+    <div className="sm:flex justify-end   mt-9 gap-4">
       <div className="sm:w-1/2  ">
         <h1
           className="text-[30px]  sm:text-[40px] font-montserrat font-semibold mb-4 uppercase leading-[120.402%] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent"
@@ -17,7 +17,7 @@ const MainContact = () => {
           Vous souhaitez échanger ? Nous rencontrer ? C'est ici !
         </a>
       </div>
-      <div className="sm:w-1/2 border-2  space-y-4 ">
+      <div className="sm:w-1/2    space-y-4 ">
         <form action="" className="space-y-4">
           <div className="space-y-4">
             <label htmlFor="Prenom">Prénom*</label>
