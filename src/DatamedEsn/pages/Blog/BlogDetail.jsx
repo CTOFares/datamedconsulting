@@ -14,7 +14,7 @@ const BlogDetail = () => {
     return <h1 className="text-center text-2xl">Article non trouvé</h1>;
 
   return (
-    <div className="">
+    <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
       <Navbar />
       <div className="mx-[130px]">
         <MainBlogDetail

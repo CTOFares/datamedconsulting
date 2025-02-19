@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
         <Expertise />
         <Values />
         <Testimonials />

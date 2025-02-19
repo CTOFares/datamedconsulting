@@ -7,8 +7,8 @@ const MainContact = () => {
   }, []);
 
   return (
-    <div className="sm:flex justify-end mt-9 gap-4">
-      <div className="sm:w-1/2">
+    <div className="flex flex-col sm:flex-row justify-end mt-9 gap-4 px-4 sm:px-6 lg:px-8">
+      <div className="sm:w-1/2 mb-4 sm:mb-0">
         <h1 className="text-[30px] sm:text-[40px] font-montserrat font-semibold mb-4 uppercase leading-[120.402%] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
           CONTACTER-Nous
         </h1>
@@ -19,12 +19,12 @@ const MainContact = () => {
           Vous souhaitez échanger ? Nous rencontrer ? C'est ici !
         </a>
       </div>
-      <div className="sm:w-1/2 space-y-4">
+      <div className="w-full sm:w-1/2 space-y-4">
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="space-y-4">
+          <div className="space-y-2">
             <label htmlFor="Prenom">Prénom*</label>
             <input
-              className="flex w-full sm:w-[641px] p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
+              className="flex w-full p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
               placeholder="Fares"
               name="Prenom"
               required
@@ -33,7 +33,7 @@ const MainContact = () => {
           <div className="space-y-2">
             <label htmlFor="Nom">Nom*</label>
             <input
-              className="flex w-full sm:w-[641px] p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
+              className="flex w-full p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
               placeholder="Safer"
               name="Nom"
               required
@@ -42,7 +42,7 @@ const MainContact = () => {
           <div className="space-y-2">
             <label htmlFor="Téléphone">Téléphone*</label>
             <input
-              className="flex w-full sm:w-[641px] p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
+              className="flex w-full p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
               placeholder="+33 25 556 8855"
               name="Téléphone"
               required
@@ -51,7 +51,7 @@ const MainContact = () => {
           <div className="space-y-2">
             <label htmlFor="Object">Object*</label>
             <input
-              className="flex w-full sm:w-[641px] p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
+              className="flex w-full p-[18px_30px] items-start gap-2 h-[45px] rounded-[14px] border-[1px] border-[#000] bg-white"
               placeholder="Need to Find a Consultant"
               name="Object"
               required
@@ -60,7 +60,7 @@ const MainContact = () => {
           <div className="space-y-2">
             <label htmlFor="Message">Message*</label>
             <textarea
-              className="flex w-full sm:w-[641px] p-[18px_30px] items-start gap-2 rounded-[14px] border-[1px] border-[#000] bg-white"
+              className="flex w-full p-[18px_30px] items-start gap-2 rounded-[14px] border-[1px] border-[#000] bg-white"
               placeholder="Need to Find a Consultant"
               rows={10}
               name="Message"
@@ -84,7 +84,7 @@ const MainContact = () => {
           </div>
           <button
             type="submit"
-            className="flex w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#173A6D]"
+            className="flex w-full sm:w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#173A6D]"
           >
             Envoyer
             <svg
