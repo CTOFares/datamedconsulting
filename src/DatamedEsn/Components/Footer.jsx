@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col mt-[20px] min-h-screen">
+    <div className="flex flex-col h-auto mt-40">
       <footer className="bg-gradient-to-b from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] rounded-tr-[45px] rounded-bl-none rounded-br-none p-8 md:p-16 mt-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <img
