@@ -13,7 +13,7 @@ const cards = [
   },
   {
     title: "DATAMED ACADEMY",
-    description: "Former les Experts de Demain",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image: assets.datamedacademy,
     link: "/esn/Accueil",
     external: false,
