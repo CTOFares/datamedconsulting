@@ -26,8 +26,8 @@ const Hero = () => {
             />
           </svg>
         </div>
-        <div className="bg-white absolute top-0 left-1/2 transform text-center justify-center -translate-x-1/2 w-[750px] h-[155px] rounded-bl-[35px] rounded-br-[35px]">
-          <p className="font-montserrat text-[80px] font-semibold leading-[120.402%] uppercase bg-gradient-to-r  from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
+        <div className="bg-white absolute top-0 left-1/2 transform text-center justify-center -translate-x-1/2 w-[300px] md:w-[600px] sm:w-[750px] h-[80px] md:h-[120px] sm:h-[155px] rounded-bl-[35px] rounded-br-[35px]">
+          <p className="font-montserrat text-[40px] md:text-[60px] sm:text-[80px] font-semibold leading-[120.402%] uppercase bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
             Actualités
           </p>
         </div>

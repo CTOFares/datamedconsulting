@@ -5,16 +5,16 @@ import { assets } from "../../assets/assets";
 const Footer = () => {
   return (
     <div className="flex flex-col mt-[20px] min-h-screen">
-      <footer className="bg-gradient-to-b from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] rounded-tr-[45px] rounded-bl-none rounded-br-none p-16 mt-auto">
-        <div className="flex flex-col sm:flex-row justify-between items-center space-y-6 sm:space-y-0">
+      <footer className="bg-gradient-to-b from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] rounded-tr-[45px] rounded-bl-none rounded-br-none p-8 md:p-16 mt-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <img
             src={assets.logowhite}
             alt="logowhite"
-            className="w-[250px] sm:w-[250px]"
+            className="w-[200px] md:w-[250px]"
           />
-          <nav className="flex flex-col sm:flex-row gap-4 text-center sm:text-left">
+          <nav className="flex flex-col md:flex-row gap-4 text-center md:text-left">
             <NavLink
-              to="/"
+              to="/esn/accueil"
               className={({ isActive }) =>
                 `font-montserrat ${isActive ? "underline" : ""}`
               }
@@ -22,15 +22,7 @@ const Footer = () => {
               Accueil
             </NavLink>
             <NavLink
-              to="/datameduniversity"
-              className={({ isActive }) =>
-                `font-montserrat ${isActive ? "underline" : ""}`
-              }
-            >
-              DATAMED UNIVERSITY
-            </NavLink>
-            <NavLink
-              to="/Carriére"
+              to="/esn/carriere"
               className={({ isActive }) =>
                 `font-montserrat ${isActive ? "underline" : ""}`
               }
@@ -38,7 +30,7 @@ const Footer = () => {
               Carriére
             </NavLink>
             <NavLink
-              to="/Actualités"
+              to="/esn/Actualités"
               className={({ isActive }) =>
                 `font-montserrat ${isActive ? "underline" : ""}`
               }
@@ -46,7 +38,7 @@ const Footer = () => {
               Actualités
             </NavLink>
             <NavLink
-              to="/Expertises"
+              to="/esn/Expertise"
               className={({ isActive }) =>
                 `font-montserrat ${isActive ? "underline" : ""}`
               }
@@ -54,7 +46,7 @@ const Footer = () => {
               Expertises
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/esn/contact"
               className={({ isActive }) =>
                 `font-montserrat ${isActive ? "underline" : ""}`
               }
@@ -62,7 +54,7 @@ const Footer = () => {
               Contact
             </NavLink>
           </nav>
-          <div className="flex justify-center sm:justify-start gap-4">
+          <div className="flex justify-center md:justify-start gap-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
@@ -109,18 +101,18 @@ const Footer = () => {
         </div>
 
         {/* Contact Info Section */}
-        <div className="mt-8 sm:mt-16">
-          <p className="text-white font-montserrat text-xl text-center sm:text-left sm:text-4xl font-medium leading-normal">
+        <div className="mt-8 md:mt-16">
+          <p className="text-white font-montserrat text-xl text-center md:text-left md:text-4xl font-medium leading-normal">
             Contact
           </p>
-          <div className="mt-4 flex flex-col sm:flex-row justify-between items-center">
-            <p className="text-white w-full sm:text-xl text-left text-xl mr-6  sm:w-1/3 font-montserrat  font-medium leading-normal sm:text-left">
+          <div className="mt-4 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-white w-full md:text-xl text-left text-xl mr-6 md:w-1/3 font-montserrat font-medium leading-normal md:text-left">
               Contact@consultingdatamed.com
             </p>
-            <p className="text-white w-full sm:w-1/3 font-montserrat text-xl font-medium leading-normal text-center sm:text-left">
+            <p className="text-white w-full md:w-1/3 font-montserrat text-xl font-medium leading-normal text-center md:text-left">
               +33 1 88 75 05 16
             </p>
-            <p className="text-white w-full sm:w-1/3 font-montserrat text-xl font-medium leading-normal text-center sm:text-left">
+            <p className="text-white w-full md:w-1/3 font-montserrat text-xl font-medium leading-normal text-center md:text-left">
               191 Avenue du Général de Gaulle, Neuilly sur Seine, 92100
             </p>
           </div>
@@ -129,12 +121,12 @@ const Footer = () => {
         <div className="w-full h-[1px] bg-white my-8"></div>
 
         {/* Footer Bottom Section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-white font-montserrat text-xl font-medium leading-normal text-center sm:text-left">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <p className="text-white font-montserrat text-xl font-medium leading-normal text-center md:text-left">
             © 2025 - Datamed Consulting - Site conçu par FARES SAFER
           </p>
 
-          <div className="flex flex-col text-center sm:flex-row gap-3 justify-center sm:justify-center">
+          <div className="flex flex-col text-center md:flex-row gap-3 justify-center md:justify-center">
             <NavLink
               to="/politiquedeconfidentialite"
               className="text-white font-montserrat text-[16px] font-normal leading-[28px] underline decoration-solid"
