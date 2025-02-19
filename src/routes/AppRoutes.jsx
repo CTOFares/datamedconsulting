@@ -12,26 +12,30 @@ import Policy from "../Utils/Policy/Policy";
 import Mention from "../Utils/Policy/Mention";
 import Cookies from "../Utils/Policy/Cookies";
 import NotFound from "../Utils/NotFound/NotFound";
+import ScrollToTop from "../Utils/ScrollToTop";
 
 NotFound;
 
 const AppRoutes = () => {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<DatamedGroup />} />
-        <Route path="/esn/Accueil" element={<Home />} />
-        <Route path="/esn/carriere" element={<Career />} />
-        <Route path="/esn/carriere/:id" element={<CareerDetail />} />
-        <Route path="/esn/Actualités" element={<Blog />} />
-        <Route path="/esn/Actualités/:id" element={<BlogDetail />} />
-        <Route path="/esn/Expertise" element={<Expertise />} />
-        <Route path="/esn/Contact" element={<Contact />} />
-        <Route path="/politiquedeconfidentialite" element={<Policy />} />
-        <Route path="/Mentionslegales" element={<Mention />} />
-        <Route path="/politiquedecookies" element={<Cookies />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+      <div>
+      <ScrollToTop/>
+        <Routes>
+          <Route path="/" element={<DatamedGroup />} />
+          <Route path="/esn/Accueil" element={<Home />} />
+          <Route path="/esn/carriere" element={<Career />} />
+          <Route path="/esn/carriere/:id" element={<CareerDetail />} />
+          <Route path="/esn/Actualités" element={<Blog />} />
+          <Route path="/esn/Actualités/:id" element={<BlogDetail />} />
+          <Route path="/esn/Expertise" element={<Expertise />} />
+          <Route path="/esn/Contact" element={<Contact />} />
+          <Route path="/politiquedeconfidentialite" element={<Policy />} />
+          <Route path="/Mentionslegales" element={<Mention />} />
+          <Route path="/politiquedecookies" element={<Cookies />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </div>
     </>
   );
 };
