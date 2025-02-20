@@ -34,9 +34,9 @@ const AcSection = () => {
           </svg>
         </button>
       </div>
-      <div className="w-full absolute left-0 -bottom-1/2   flex items-center justify-center">
+      {/* <div className="w-full absolute left-0 -bottom-1/2   flex items-center justify-center">
         <img src={assets.tindercover} className="" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

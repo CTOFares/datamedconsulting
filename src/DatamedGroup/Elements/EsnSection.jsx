@@ -3,12 +3,12 @@ import { assets } from "../../assets/assets";
 
 const EsnSection = () => {
   return (
-    <div className=" h-[600px] w-auto bg-[#F4F3FF] rounded-[15px] my-20 mx-20 items-center justify-center flex">
-      <div className="w-1/2 p-20 space-y-4">
-        <p className="text-[#1A1A1A] font-montserrat text-[42px] font-semibold leading-[52px] tracking-[-0.758px]">
+    <div className=" h-[600px] grid-cols-1 sm:grid-cols-2 w-auto bg-[#F4F3FF] rounded-[15px] my-20 mx-10 sm:mx-20 items-center justify-center flex">
+      <div className=" w-auto sm:w-1/2 p-20">
+        <p className="text-[#1A1A1A] font-montserrat text-[25px] sm:text-[42px] font-semibold leading-[52px] tracking-[-0.758px]">
           DATAMED CONSULTING
         </p>
-        <p className="text-[#767676] font-montserrat text-[20px] font-medium leading-[30px] tracking-[-0.361px]">
+        <p className="text-[#767676] font-montserrat text-[15px] sm:text-[20px] font-medium leading-[30px] tracking-[-0.361px]">
           Avec DATAMED Consulting, nous accompagnons les entreprises dans leur
           transition digitale et leurs projets de transformation technologique.
           De la gestion de projets IT à l’optimisation des infrastructures, en
@@ -35,9 +35,9 @@ const EsnSection = () => {
           </svg>
         </button>
       </div>
-      <div className="w-1/2   items-end flex justify-center flex-col h-full">
+      {/* <div className="w-1/2  items-end flex justify-center flex-col h-full">
         <img src={assets.esncover} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

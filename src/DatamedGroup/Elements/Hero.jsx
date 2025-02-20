@@ -74,12 +74,12 @@ const Hero = () => {
             </motion.span>
           ))}
         </motion.h1>
-        <p className="text-black font-montserrat text-[20px] font-normal">
+        <p className="text-black font-montserrat text-lg/8 font-normal">
           Chez DATAMED GROUPE, nous croyons en la puissance des données pour transformer les entreprises et façonner l’avenir.
           Forts d’une expertise pointue et d’une vision innovante, nous avons structuré notre groupe autour de trois piliers fondamentaux :
         </p>
       </div>
-      <div className="sm:flex gap-y-6 items-center justify-center gap-4 w-full px-6">
+      <div className="sm:flex gap-y-6 items-center space-y-4 justify-center gap-4 w-full px-6">
         {cards.map((card, index) => (
           <Card key={index} {...card} />
         ))}

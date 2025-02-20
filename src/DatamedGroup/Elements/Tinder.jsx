@@ -4,9 +4,9 @@ import { assets } from "../../assets/assets";
 const Tinder = () => {
   return (
     <div className=" h-[600px] w-auto bg-[#F4F3FF] rounded-[15px] my-20 mx-20 mt-[500px] items-center justify-center flex">
-      <div className="w-1/2 items-center flex   justify-start h-full">
-        <img src={assets.connect} cl alt="" />
-      </div>
+      {/* <div className="w-1/2 items-center flex   justify-start h-full">
+        <img src={assets.hero1} cl alt="" />
+      </div> */}
       <div className="w-1/2 p-20 space-y-4">
         <p className="text-[#1A1A1A] font-montserrat text-[42px] font-semibold leading-[52px] tracking-[-0.758px]">
           DATAMED CONNECT
