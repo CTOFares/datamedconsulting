@@ -115,7 +115,7 @@ const Footer = () => {
       <div className="w-full h-[1px] bg-white my-8"></div>
       <div className="sm:flex sm:justify-between sm:p-9 w-full pb-9">
         <p className="text-white font-montserrat text-xl font-medium leading-normal text-center md:text-left">
-          © 2025 - Datamed Consulting - Site conçu par FARES SAFER
+          © 2025 - Datamed Consulting
         </p>
         <div className="flex flex-col text-center md:flex-row gap-3 justify-center md:justify-center">
           <NavLink

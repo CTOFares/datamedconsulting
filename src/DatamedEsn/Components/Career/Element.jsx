@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 const Element = ({ Title, Paragraphe }) => {
   return (
     <>
-      <div className="flex h-[225px] gap-4  group rounded-[15px]  hover:bg-[linear-gradient(116deg,_#205198_61.41%,_#0B1B32_98.56%)] transition-all">
-        <div className="rounded-[35px] bg-[#205198] hover:bg-[linear-gradient(116deg,_#205198_61.41%,_#0B1B32_98.56%)] hover: w-[15px]"></div>
-        <div className="p-4 flex h-auto flex-col justify-between text-[#141414] hover:text-white">
+      <div className="flex h-auto gap-4 group rounded-[15px] hover:bg-[linear-gradient(116deg,_#205198_61.41%,_#0B1B32_98.56%)] justify-between items-center transition-all">
+        <div className="rounded-[35px] bg-[#205198] hover:bg-[linear-gradient(116deg,_#205198_61.41%,_#0B1B32_98.56%)] h-[160px] justify-between flex items-end w-[15px]"></div>
+        <div className="p-4 flex h-auto flex-col gap-y-5 justify-between text-[#141414] hover:text-white">
           <p className="font-montserrat text-[20px] sm:text-[30px] font-semibold leading-[36.121px]">
             {Title}
           </p>

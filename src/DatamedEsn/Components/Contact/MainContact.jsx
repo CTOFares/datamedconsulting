@@ -12,12 +12,15 @@ const MainContact = () => {
         <h1 className="text-[30px] sm:text-[40px] font-montserrat font-semibold mb-4 uppercase leading-[120.402%] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
           CONTACTER-Nous
         </h1>
+
+
         <a
           className="text-[16px] font-montserrat font-normal leading-[120.402%] text-black"
           href="#"
         >
           Vous souhaitez échanger ? Nous rencontrer ? C'est ici !
         </a>
+
       </div>
       <div className="w-full sm:w-1/2 space-y-4">
         <form onSubmit={handleSubmit} className="space-y-4">

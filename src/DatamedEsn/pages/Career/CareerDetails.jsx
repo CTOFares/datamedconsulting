@@ -47,34 +47,34 @@ const CareerDetails = () => {
         </div>
         {/* Tiite et Buttons */}
         <div className="flex justify-between">
-          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#16386C] to-[#2B6DD2] font-poppins text-[40px] font-semibold leading-[120.402%] uppercase">
+          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#16386C] to-[#2B6DD2] font-montserrat  text-[20px] sm:text-[40px] font-semibold leading-[120.402%] uppercase">
             {career.titre}
           </h1>
           <button>Postuler</button>
         </div>
         <div className="bg-[#03B3E1]  stroke-[1px] h-[1px]"></div>
-        <div className="flex">
-          <div className="w-2/3 space-y-4">
-            <h1 className="text-black font-poppins text-[25px] font-medium leading-[120.402%]">
+        <div className="sm:flex space-y-9 sm:space-y-0">
+          <div className="sm:w-2/3 space-y-4">
+            <h1 className="text-black font-montserrat text-[25px] font-medium leading-[120.402%]">
               Tâches & Responsabilités
             </h1>
-            <p className="text-black font-poppins text-[16px] font-normal leading-[120.402%]">
+            <p className="text-black font-montserrat text-[16px] font-normal leading-[120.402%]">
               {career.Taches}
             </p>
-            <h1 className="text-black font-poppins text-[25px] font-medium leading-[120.402%]">
+            <h1 className="text-black font-montserrat text-[25px] font-medium leading-[120.402%]">
               Exigences
             </h1>
-            <p className="text-black font-poppins text-[16px] font-normal leading-[120.402%]">
+            <p className="text-black font-montserrat text-[16px] font-normal leading-[120.402%]">
               {career.Exigences}
             </p>
-            <h1 className="text-black font-poppins text-[25px] font-medium leading-[120.402%]">
+            <h1 className="text-black font-montserrat text-[25px] font-medium leading-[120.402%]">
               Niveau académique:
             </h1>
-            <p className="text-black font-poppins text-[16px] font-normal leading-[120.402%]">
+            <p className="text-black font-montserrat text-[16px] font-normal leading-[120.402%]">
               {career.NiveauAccademique}
             </p>
           </div>
-          <div className="w-1/3">
+          <div className="sm:w-1/3 space-y-6">
             <div className="rounded-[15px] bg-white shadow-[219px_0px_61px_0px_rgba(42,106,199,0),140px_0px_56px_0px_rgba(42,106,199,0.01),79px_0px_47px_0px_rgba(42,106,199,0.05),35px_0px_35px_0px_rgba(42,106,199,0.09),9px_0px_19px_0px_rgba(42,106,199,0.10)] flex flex-col items-start gap-[10px] p-[22px_21px]">
               <h1 className="text-black font-montserrat text-[20px] font-normal leading-[120.402%]">
                 INFORMATIONS
@@ -108,7 +108,7 @@ const CareerDetails = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="text-black font-poppins text-[16px] font-medium leading-[120.402%]">
+                <p className="text-black font-montserrat text-[16px] font-medium leading-[120.402%]">
                   Localisation
                 </p>
               </div>
@@ -128,7 +128,7 @@ const CareerDetails = () => {
                     fill="black"
                   />
                 </svg>
-                <p className="text-black font-poppins text-[16px] font-medium leading-[120.402%]">
+                <p className="text-black font-montserrat text-[16px] font-medium leading-[120.402%]">
                   Type de Travail
                 </p>
               </div>
@@ -217,7 +217,7 @@ const CareerDetails = () => {
                     fill="black"
                   />
                 </svg>
-                <p className="text-black font-poppins text-[16px] font-medium leading-[120.402%]">
+                <p className="text-black font-montserrat text-[16px] font-medium leading-[120.402%]">
                   Experience
                 </p>
               </div>
@@ -249,7 +249,7 @@ const CareerDetails = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <p className="text-black font-poppins text-[16px] font-medium leading-[120.402%]">
+                <p className="text-black font-montserrat text-[16px] font-medium leading-[120.402%]">
                   Diplome
                 </p>
               </div>
@@ -292,7 +292,7 @@ const CareerDetails = () => {
           </div>
         </div>
       </div>
-      <OtherCareers />
+      <OtherCareers/>
       <Footer />
     </div>
   );

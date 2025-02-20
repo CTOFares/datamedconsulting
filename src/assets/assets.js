@@ -2,6 +2,9 @@ import logoblue from "./logoblue.png";
 import logowhite from "./logowhite.png";
 import hero1 from "./Hero1.jpg";
 import hero2 from "./Hero2.jpg";
+import hero3 from "./Hero3.jpg";
+import hero4 from "./hero4.jpg";
+import hero5 from "./hero5.jpg";
 import client1 from "./client1.png";
 import client2 from "./client2.png";
 import client3 from "./client3.png";
@@ -31,6 +34,8 @@ export const assets = {
   logowhite,
   hero1,
   hero2,
+  hero3,
+  hero5,
   notfound,
   constraction,
   sparks,
@@ -41,6 +46,7 @@ export const assets = {
   esncover,
   tindercover,
   starts,
+  hero4
 };
 
 // Export carousel clients

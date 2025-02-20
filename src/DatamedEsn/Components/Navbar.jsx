@@ -88,7 +88,7 @@ const Navbar = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="sm:hidden absolute top-16 left-0 right-0 bg-white text-black p-4">
+        <div className="sm:hidden absolute top-16 left-0 right-0 bg-white text-black p-4 z-40">
           <nav className="flex flex-col gap-4">
             <NavLink
               to="/esn/Accueil"

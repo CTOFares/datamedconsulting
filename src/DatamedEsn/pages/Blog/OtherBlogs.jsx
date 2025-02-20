@@ -9,7 +9,7 @@ const OtherBlogs = ({ id }) => {
   return (
     <div className="my-11">
       <div className="flex items-center justify-between  ">
-        <h1 className="text-center font-poppins text-[40px] font-semibold leading-[120.402%] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
+        <h1 className="text-center font-montserrat text-[40px] font-semibold leading-[120.402%] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
           Posts récents
         </h1>
         <NavLink to="/Actualités" className="flex justify-center gap-4">
@@ -33,9 +33,9 @@ const OtherBlogs = ({ id }) => {
           </svg>
         </NavLink>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {blogs
-          .filter((blog) => blog.id !== id) // Filter out the blog with the given id
+          .filter((blog) => blog.id !== id)
           .map((blog) => (
             <div
               key={blog.id}e

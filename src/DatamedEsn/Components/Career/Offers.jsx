@@ -13,7 +13,10 @@ const Offers = () => {
           Nos Offres
         </p>
         <div className="flex items-center gap-3">
-          <a href="#" className="text-[16px] font-lato font-normal text-black">
+          <a
+            onClick={() => navigate(`/esn/carriere`)}
+            className="text-[16px] font-lato font-normal text-black"
+          >
             Voir plus
           </a>
           <svg
@@ -34,7 +37,7 @@ const Offers = () => {
         </div>
       </div>
       <div>
-        <div className="grid sm:grid-cols-2 space-y-9 sm:grid-rows-2 gap-4 grid-cols-1 grid-rows-4">
+        <div className="grid sm:grid-cols-2 space-y-5 sm:space-y-0  sm:grid-rows-2 gap-4 grid-cols-1 grid-rows-4">
           {careers.map((offre) => (
             <div
               key={offre.id}

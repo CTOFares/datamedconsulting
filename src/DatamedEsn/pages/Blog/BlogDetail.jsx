@@ -16,7 +16,7 @@ const BlogDetail = () => {
   return (
     <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
       <Navbar />
-      <div className="mx-[130px]">
+      <div className="sm:mx-[130px]">
         <MainBlogDetail
           id={blog.id}
           date={blog.date}

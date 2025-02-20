@@ -2,7 +2,7 @@ import React from "react";
 
 const Element = ({ date, title, paragraphe, image }) => {
   return (
-    <div className="my-11 space-y-3">
+    <div className="my-11 sm:space-y-5 space-y-5 ">
       <img src={image} className="rounded-lg" alt="" />
       <p className="text-[#807B7B] font-montserrat text-[16px] not-italic font-medium leading-[120.402%]">
         {date}

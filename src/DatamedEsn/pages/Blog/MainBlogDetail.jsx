@@ -12,7 +12,7 @@ const MainBlogDetail = ({ id, date, title, image, paragraphe }) => {
             Date: {date}
           </p>
         </div>
-        <h1 class="text-4xl font-semibold uppercase leading-[48.161px] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
+        <h1 class=" text-3xl sm:text-4xl font-semibold uppercase sm:leading-[48.161px] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
           {title}
         </h1>
         <img src={image} className="rounded" alt="" />

@@ -1,10 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate, useParams } from "react-router-dom";
 import { careers } from "../../../assets/assets";
 import Element from "../../Components/Career/Element";
 
 const OtherCareers = () => {
-  const navigate = useNavigate(); // ✅ Define navigate function
+  const navigate = useNavigate();
+  const { id } = useParams();
 
   return (
     <div className="space-y-9 mt-9 mb-5">
@@ -14,7 +15,7 @@ const OtherCareers = () => {
         </p>
         <div className="flex items-center gap-3">
           <a
-            href="/carriere"
+            href="/esn/carriere"
             className="text-[16px] font-lato font-normal text-black"
           >
             Voir plus
@@ -37,16 +38,18 @@ const OtherCareers = () => {
         </div>
       </div>
       <div>
-        <div className="grid sm:grid-cols-2 space-y-9 sm:grid-rows-2 gap-4 grid-cols-1 grid-rows-4">
-          {careers.map((offre) => (
-            <div
-              key={offre.id}
-              onClick={() => navigate(`/esn/carriere/${offre.id}`)}
-              className="cursor-pointer"
-            >
-              <Element Title={offre.titre} Paragraphe={offre.Taches} />
-            </div>
-          ))}
+        <div className="grid sm:grid-cols-2 space-y-5 sm:space-y-0 sm:grid-rows-2 gap-4 grid-cols-1 grid-rows-4">
+          {careers
+            .filter((offre) => offre.id !== parseInt(id)) // Filter out the career with the given id
+            .map((offre) => (
+              <div
+                key={offre.id}
+                onClick={() => navigate(`/esn/carriere/${offre.id}`)}
+                className="cursor-pointer"
+              >
+                <Element Title={offre.titre} Paragraphe={offre.Taches} />
+              </div>
+            ))}
         </div>
       </div>
     </div>
