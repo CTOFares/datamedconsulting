@@ -25,14 +25,16 @@ const ConsultantSection = () => {
   }, []);
 
   return (
-    <div className="mb-9 mt-[90px] sm:flex gap-4 rounded p-9">
+    <div className="mb-9 mt-[90px] sm:flex gap-4 rounded p-4">
       <div className="sm:w-1/2 mb-8 space-y-4">
-        <p className="text-[20px] sm:text-[40px] text-[#060606] font-montserrat font-semibold leading-[48.161px]">
-          Vous êtes un <br />
-          <span className="text-transparent bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text font-montserrat text-[40px] sm:text-[50px] font-semibold leading-[60.201px]">
-            Consultant
-          </span>
-        </p>
+        <div className="sm:w-1/3">
+          <p className="text-black font-montserrat  text-2xl sm:text-4xl font-semibold leading-[100.402%] uppercase">
+            Vous êtes un{" "}
+            <p className=" sm:text-start font-montserrat   font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
+              Consultant
+            </p>
+          </p>
+        </div>
         <p>
           Rejoignez CVTECH dès aujourd’hui ! Nous mettons en relation les
           meilleurs talents avec les clients idéaux, en trouvant l’opportunité

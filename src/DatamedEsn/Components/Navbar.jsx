@@ -59,7 +59,7 @@ const Navbar = () => {
           </NavLink>
         </nav>
       </div>
-      <div className="flex h-[45px] rounded-[14px] bg-[#FBE4E4] overflow-hidden">
+      <div className="hidden sm:blockflex h-[45px] rounded-[14px] bg-[#FBE4E4] overflow-hidden">
         <div className="w-full px-4 flex items-center justify-center bg-[#173A6D] rounded-[14px]">
           <NavLink
             to="/esn/contact"

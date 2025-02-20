@@ -10,9 +10,9 @@ const Values = () => {
       <div className="flex flex-col sm:flex-row gap-4 justify-between">
         <div className="h-auto sm:h-[409px] w-full sm:w-1/3 flex flex-col justify-end">
           <div className="h-auto sm:h-[317px] p-4 space-y-5 items-center flex flex-col justify-center bg-white rounded-[15px] shadow-[0px_403px_113px_rgba(23,58,109,0),0px_258px_103px_rgba(23,58,109,0.01),0px_145px_87px_rgba(23,58,109,0.05),0px_64px_64px_rgba(23,58,109,0.09),0px_16px_35px_rgba(23,58,109,0.10)] text-white">
-            <img src={values.valeur1} alt="" className="w-[]" />
+            <img src={values.valeur1} alt="Management" className="w-[90px]" />
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-medium leading-[120.402%] uppercase">
-            Management
+              Management
             </p>
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-normal leading-[120.402%]">
               La quête du dépassement est au cœur de l'état d'esprit de Datamed
@@ -22,9 +22,9 @@ const Values = () => {
         </div>
         <div className="h-auto sm:h-[409px] w-full sm:w-1/3">
           <div className="h-auto sm:h-[317px] p-4 space-y-5 items-center flex flex-col justify-center bg-white rounded-[15px] shadow-[0px_403px_113px_rgba(23,58,109,0),0px_258px_103px_rgba(23,58,109,0.01),0px_145px_87px_rgba(23,58,109,0.05),0px_64px_64px_rgba(23,58,109,0.09),0px_16px_35px_rgba(23,58,109,0.10)] text-white">
-            <img src={values.valeur2} alt="" className="" />
+            <img src={values.valeur2} alt="Efficacité" className="w-[90px]" />
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-medium leading-[120.402%] uppercase">
-            Efficacité
+              Efficacité
             </p>
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-normal leading-[120.402%]">
               L'innovation est au cœur de notre stratégie pour anticiper les
@@ -34,9 +34,9 @@ const Values = () => {
         </div>
         <div className="h-auto sm:h-[409px] w-full sm:w-1/3 flex flex-col justify-end">
           <div className="h-auto sm:h-[317px] p-4 space-y-5 items-center flex flex-col justify-center bg-white rounded-[15px] shadow-[0px_403px_113px_rgba(23,58,109,0),0px_258px_103px_rgba(23,58,109,0.01),0px_145px_87px_rgba(23,58,109,0.05),0px_64px_64px_rgba(23,58,109,0.09),0px_16px_35px_rgba(23,58,109,0.10)] text-white">
-            <img src={values.valeur3} alt="" className="" />
+            <img src={values.valeur3} alt="Dynamisme" className="w-[90px]" />
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-medium leading-[120.402%] uppercase">
-            Dynamisme
+              Dynamisme
             </p>
             <p className="text-black text-center font-montserrat text-[14px] sm:text-[16px] font-normal leading-[120.402%]">
               Nous visons l'excellence dans tous nos projets et services.

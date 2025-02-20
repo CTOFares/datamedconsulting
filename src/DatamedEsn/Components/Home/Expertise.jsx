@@ -4,7 +4,7 @@ import Element from "./Element";
 const Expertise = () => {
   return (
     <div className="  sm:pt-[50px]">
-      <div className="sm:flex p-3 sm:p-9 mb-6  sm:gap-6">
+      <div className="sm:flex p-3 sm:p-4 mb-6  sm:gap-6">
         <p className=" sm:text-center font-montserrat  text-2xl sm:text-4xl font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
           EXPERTISE
         </p>

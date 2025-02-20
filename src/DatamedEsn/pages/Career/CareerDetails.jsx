@@ -47,10 +47,18 @@ const CareerDetails = () => {
         </div>
         {/* Tiite et Buttons */}
         <div className="flex justify-between">
-          <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#16386C] to-[#2B6DD2] font-montserrat  text-[20px] sm:text-[40px] font-semibold leading-[120.402%] uppercase">
+          <h1 className="text-transparent bg-clip-text w-1/2 bg-gradient-to-r from-[#16386C] to-[#2B6DD2] font-montserrat text-[20px] sm:text-[40px] font-semibold leading-[120.402%] uppercase">
             {career.titre}
           </h1>
-          <button>Postuler</button>
+          {career.status === "Disponible" ? (
+            <button className="flex w-[126px] px-[19px] py-[13px] justify-center items-center gap-[10px] rounded-[35px] bg-[#173A6D] text-white">
+              Postuler
+            </button>
+          ) : (
+            <button className="flex w-auto px-[19px]  py-[13px] justify-center items-center gap-[10px] rounded-[35px] bg-gradient-to-r from-[#6D171B] to-[#D32D35] text-white">
+              Non Disponible
+            </button>
+          )}
         </div>
         <div className="bg-[#03B3E1]  stroke-[1px] h-[1px]"></div>
         <div className="sm:flex space-y-9 sm:space-y-0">
@@ -292,7 +300,7 @@ const CareerDetails = () => {
           </div>
         </div>
       </div>
-      <OtherCareers/>
+      <OtherCareers />
       <Footer />
     </div>
   );

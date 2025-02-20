@@ -12,7 +12,7 @@ const Element = ({ Title, Paragraphe }) => {
         <p className="font-montserrat text-[16px] font-normal leading-[19.264px]">
           {Paragraphe}
         </p>
-        <Link to="/contact" className="flex gap-4 items-center text-start">
+        <Link to="/esn/contact" className="flex gap-4 items-center text-start">
           <div className="text-[#14B8E4] font-lato text-[16px] font-normal leading-[19.264px]">
             Contactez-nous
           </div>

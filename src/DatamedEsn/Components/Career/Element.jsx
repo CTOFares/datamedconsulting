@@ -18,7 +18,7 @@ const Element = ({ Title, Paragraphe }) => {
             className="flex gap-4 items-center text-start"
           >
             <div className="text-[#14B8E4] font-lato text-[16px] font-normal leading-[19.264px]">
-              Contactez-nous
+              Consulter L'offre
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

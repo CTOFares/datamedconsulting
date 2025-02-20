@@ -9,6 +9,12 @@ import client1 from "./client1.png";
 import client2 from "./client2.png";
 import client3 from "./client3.png";
 import client4 from "./client4.png";
+import client8 from "./client8.png";
+import client9 from "./client9.png";
+import client10 from "./client10.png";
+import client11 from "./client11.png";
+import client12 from "./client12.png";
+
 import notfound from "./404.png";
 import constraction from "./constraction.webm";
 import sparks from "./sparks.png";
@@ -46,7 +52,7 @@ export const assets = {
   esncover,
   tindercover,
   starts,
-  hero4
+  hero4,
 };
 
 // Export carousel clients
@@ -55,14 +61,11 @@ export const carouselclient = {
   client2,
   client3,
   client4,
-  client1,
-  client2,
-  client3,
-  client4,
-  client1,
-  client2,
-  client3,
-  client4,
+  client8,
+  client9,
+  client10,
+  client11,
+  client12,
 };
 
 // Export blog posts
@@ -147,6 +150,7 @@ export const careers = [
     id: 1001,
     date: "10/01/2024",
     titre: "Développeur Full Stack",
+    status: "Disponible",
     Taches:
       "Concevoir, développer et tester des applications web en utilisant des technologies modernes comme React et Node.js. Collaborer avec les équipes de conception et de produit pour créer une expérience utilisateur fluide et intuitive. Maintenir et améliorer le code existant en garantissant la performance et la sécurité des applications.",
     Exigences:
@@ -165,6 +169,7 @@ export const careers = [
     id: 1002,
     date: "15/01/2024",
     titre: "Chef de Projet IT",
+    status: "Disponible",
     Taches:
       "Superviser le cycle de vie complet des projets informatiques, de la planification à la livraison. Gérer les ressources, les délais et les budgets tout en assurant la qualité des livrables. Assurer la liaison entre les équipes techniques et les parties prenantes pour garantir l’alignement des objectifs.",
     Exigences:
@@ -183,6 +188,7 @@ export const careers = [
     id: 1003,
     date: "20/01/2024",
     titre: "Ingénieur DevOps",
+    status: "Non Disponible",
     Taches:
       "Automatiser et optimiser les processus de déploiement et de gestion des infrastructures cloud. Travailler en étroite collaboration avec les développeurs pour intégrer des pratiques CI/CD efficaces. Assurer la surveillance et la maintenance des systèmes pour garantir une haute disponibilité.",
     Exigences:
@@ -200,6 +206,7 @@ export const careers = [
     id: 1003,
     date: "20/01/2024",
     titre: "Ingénieur DevOps",
+    status: "Non Disponible",
     Taches:
       "Automatiser et optimiser les processus de déploiement et de gestion des infrastructures cloud. Travailler en étroite collaboration avec les développeurs pour intégrer des pratiques CI/CD efficaces. Assurer la surveillance et la maintenance des systèmes pour garantir une haute disponibilité.",
     Exigences:

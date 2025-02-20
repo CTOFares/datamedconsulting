@@ -8,12 +8,12 @@ const OtherBlogs = ({ id }) => {
 
   return (
     <div className="my-11">
-      <div className="flex items-center justify-between  ">
-        <h1 className="text-center font-montserrat text-[40px] font-semibold leading-[120.402%] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
-          Posts récents
+      <div className="flex items-center   justify-between  ">
+        <h1 className="text-start font-montserrat    text-[24px] sm:text-[40px] font-semibold leading-[120.402%] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
+          Posts Récents
         </h1>
         <NavLink to="/Actualités" className="flex justify-center gap-4">
-          <p className="text-black font-lato text-[16px] font-normal leading-[120.402%]">
+          <p className="text-black font-lato  text-[16px] font-normal leading-[120.402%]">
             Voir Plus
           </p>
           <svg
