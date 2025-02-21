@@ -15,12 +15,12 @@ const DatamedGroup = () => {
       {/* <Hero /> */}
       {/* <EsnSection /> */}
       <Test3 />
-      <Test1 />
-      <Test2 />
+      {/* <Test1 /> */}
+      {/* <Test2 /> */}
       
-      <AcSection />
-      <Tinder />
-      <Footer />
+      {/* <AcSection /> */}
+      {/* <Tinder /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

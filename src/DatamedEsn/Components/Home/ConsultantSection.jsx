@@ -27,7 +27,7 @@ const ConsultantSection = () => {
   return (
     <div className="mb-9 mt-[90px] sm:flex gap-4 rounded p-4">
       <div className="sm:w-1/2 mb-8 space-y-4">
-        <div className="sm:w-1/3">
+        <div className="sm:w-1/é">
           <p className="text-black font-montserrat  text-2xl sm:text-4xl font-semibold leading-[100.402%] uppercase">
             Vous êtes un{" "}
             <p className=" sm:text-start font-montserrat   font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">

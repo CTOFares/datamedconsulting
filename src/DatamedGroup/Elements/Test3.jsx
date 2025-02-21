@@ -31,7 +31,7 @@ const cards = [
   ];
   
   const Card = ({ title, description, image, link, external }) => (
-    <div className="w-[349px] h-[333px] space-y-4 flex flex-col items-center justify-center text-medium p-4 rounded-[15px] bg-white shadow-lg relative group">
+    <div className="w-[349px] h-[233px] space-y-4 flex flex-col items-center justify-center text-medium p-4 rounded-[15px] bg-white shadow-lg relative group">
       <img src={image} className="w-1/2" alt={title} loading="lazy" />
       <p className="text-black text-center font-montserrat text-[25px] font-semibold">{title}</p>
       <p className="text-[#02B1E0] text-center font-montserrat text-[16px] font-normal">{description}</p>
@@ -65,7 +65,7 @@ const cards = [
 
 const Test3 = () => {
   return (
-    <div className="pt-20 bg-[#FAFAFA] pb-16 space-y-4 text-center lg:pt-32">
+    <div className="pt-20 bg-[#FAFAFA] pb-16 space-y-4 text-center lg:pt-32  min-h-screen">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         DATAMED{" "}
         <span className="relative whitespace-nowrap text-blue-600">
@@ -88,7 +88,7 @@ const Test3 = () => {
         pointue et d’une vision innovante, nous avons structuré notre groupe
         autour de trois piliers fondamentaux :
       </p>
-      <div className="sm:flex gap-y-6 items-center space-y-4 justify-center gap-4 w-full px-6">
+      <div className="sm:flex gap-y-6 items-center space-y-4 sm:space-y-0 justify-center gap-4 w-full px-6">
         {cards.map((card, index) => (
           <Card key={index} {...card} />
         ))}
