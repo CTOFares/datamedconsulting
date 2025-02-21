@@ -6,8 +6,9 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/esn/contact");
+    navigate("/esn/Contact");
   };
+
   return (
     <div className="mb-9 relative gap-4 flex sm:min-h-screen w-full">
       <div
@@ -47,7 +48,10 @@ const Hero = () => {
             </div>
             <div className="w-[534px] rounded ml-40 h-[84px]">
               <div className="ml-[12px] bg-white h-[113px] rounded-tl-[0px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[20px] p-9">
-                <button className="flex w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#173A6D]">
+                <button
+                  onClick={handleClick}
+                  className="flex w-[189px] text-white p-[13px_19px] justify-center items-center gap-[10px] rounded-[14px] bg-[#173A6D]"
+                >
                   Contacter Nous
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,8 +72,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="w-[173px] absolute sm:h-[366px] right-0 rounded-[92px] bg-white shadow-[219px_0px_61px_0px_rgba(42,106,199,0),140px_0px_56px_0px_rgba(42,106,199,0.01),79px_0px_47px_0px_rgba(42,106,199,0.05),35px_0px_35px_0px_rgba(42,106,199,0.09),9px_0px_19px_0px_rgba(42,106,199,0.10)] flex flex-col justify-between items-center">
-            <div className="items-center mt-6 text-center">
+          <div className="w-[173px] absolute   sm:h-[350px] right-0 rounded-[92px] bg-white shadow-[219px_0px_61px_0px_rgba(42,106,199,0),140px_0px_56px_0px_rgba(42,106,199,0.01),79px_0px_47px_0px_rgba(42,106,199,0.05),35px_0px_35px_0px_rgba(42,106,199,0.09),9px_0px_19px_0px_rgba(42,106,199,0.10)] flex flex-col justify-between items-center">
+            <div className="items-center mt-6   text-center">
               <p className="bg-gradient-to-b from-[#1DB9E6] to-[#106780] bg-clip-text text-transparent font-montserrat text-[45px] font-semibold leading-[120.402%]">
                 50+
               </p>
@@ -77,7 +81,7 @@ const Hero = () => {
                 Clients
               </p>
             </div>
-            <div className="items-center text-center">
+            <div className="items-center   text-center">
               <p className="bg-gradient-to-b from-[#1DB9E6] to-[#106780] bg-clip-text text-transparent font-montserrat text-[45px] font-semibold leading-[120.402%]">
                 200k
               </p>
@@ -85,7 +89,7 @@ const Hero = () => {
                 Consultant
               </p>
             </div>
-            <div className="items-center mb-6 text-center">
+            <div className="items-center mb-6   text-center">
               <p className="bg-gradient-to-b from-[#1DB9E6] to-[#106780] bg-clip-text text-transparent font-montserrat text-[45px] font-semibold leading-[120.402%]">
                 4
               </p>
@@ -100,7 +104,7 @@ const Hero = () => {
           style={{ backgroundImage: `url(${assets.hero2})` }}
         ></div>
       </div>
-      <div className="justify-center items-center lg:hidden mt-6 mb-6   relative">
+      <div className="justify-center items-center lg:hidden mt-6 mb-6 relative">
         <div className="pt-10 flex items-center justify-center">
           <h1 className="mx-auto text-center max-w-4xl font-display text-5xl font-semibold tracking-tight text-[#000000] sm:text-7xl">
             Dirigez Votre

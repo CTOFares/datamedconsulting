@@ -3,11 +3,11 @@ import { values } from "../../../assets/assets";
 
 const Values = () => {
   return (
-    <div className="mx-4 sm:mx-8 md:mx-[120px] mt-[90px] space-y-5">
+    <div className="mx-4 sm:mx-8 md:mx-[90px] mt-[90px] space-y-5">
       <h1 className="text-center font-montserrat text-[24px] sm:text-[32px] md:text-[40px] font-semibold leading-[120.402%] uppercase bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
         Nos valeurs
       </h1>
-      <div className="flex flex-col sm:flex-row gap-4 justify-between">
+      <div className="flex gird grid-cols-1 sm:grid-cols-3 gap-4 justify-between">
         <div className="h-auto sm:h-[409px] w-full sm:w-1/3 flex flex-col justify-end">
           <div className="h-auto sm:h-[317px] p-4 space-y-5 items-center flex flex-col justify-center bg-white rounded-[15px] shadow-[0px_403px_113px_rgba(23,58,109,0),0px_258px_103px_rgba(23,58,109,0.01),0px_145px_87px_rgba(23,58,109,0.05),0px_64px_64px_rgba(23,58,109,0.09),0px_16px_35px_rgba(23,58,109,0.10)] text-white">
             <img src={values.valeur1} alt="Management" className="w-[90px]" />
