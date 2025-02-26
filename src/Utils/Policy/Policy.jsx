@@ -52,13 +52,13 @@ const Policy = () => {
           navigateur pour refuser les cookies ou être avertis lorsqu'un cookie
           est utilisé. Cependant, veuillez noter que certaines fonctionnalités
           du site web peuvent ne pas fonctionner correctement si les cookies
-          sont désactivés. ​ Droits des utilisateurs Les utilisateurs ont le
+          sont désactivés.  <br /> ​ <br /> ​​ Droits des utilisateurs Les utilisateurs ont le
           droit d'accéder, de rectifier, de supprimer ou de limiter
           l'utilisation de leurs données personnelles. Ils ont également le
           droit de s'opposer au traitement de leurs données personnelles et de
           demander la portabilité de leurs données. Pour exercer ces droits, les
           utilisateurs peuvent nous contacter via les coordonnées fournies dans
-          les mentions légales. ​ Modifications de la politique de
+          les mentions légales. <br /> ​<br /> ​ ​ Modifications de la politique de
           confidentialité DATAMED RESEARCH se réserve le droit de modifier cette
           politique de confidentialité à tout moment. Les utilisateurs seront
           informés des modifications importantes par le biais d'une notification
