@@ -5,7 +5,7 @@ import MainContact from "../../Components/Contact/MainContact";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
+    <div className="w-full min-h-screen flex flex-col ">
       <Navbar />
       <MainContact />
       <Footer />
