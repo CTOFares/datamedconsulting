@@ -60,21 +60,11 @@ const Navbar = () => {
             </NavLink>
           </nav>
         </div>
-        <div className="border-2 items-center justify-center flex">
-          <button className="flex w-[174px] h-[48px] px-[19px] py-[13px] justify-center items-center gap-[10px] shrink-0 rounded-[14px] bg-[#173A6D]">
+        <NavLink to="/esn/contact" className="border-2 hidden sm:block items-center justify-center">
+          <button  className="flex w-[174px] h-[48px] px-[19px] py-[13px] justify-center items-center gap-[10px] shrink-0 rounded-[14px] bg-[#173A6D]">
             Contactez Nous
           </button>
-        </div>
-      </div>
-      <div className="hidden sm:blockflex h-[45px] rounded-[14px] bg-[#FBE4E4] overflow-hidden">
-        <div className="w-full px-4 flex items-center justify-center bg-[#173A6D] rounded-[14px]">
-          <NavLink
-            to="/esn/contact"
-            className="text-white font-montserrat text-[16px] font-normal"
-          >
-            Contacter Nous
-          </NavLink>
-        </div>
+        </NavLink>
       </div>
       <div className="sm:hidden flex items-center">
         <button onClick={toggleMenu} className="text-black focus:outline-none">
