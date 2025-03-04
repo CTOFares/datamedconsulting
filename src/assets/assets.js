@@ -1,6 +1,6 @@
 import logoblue from "./logoblue.png";
 import logowhite from "./logowhite.png";
-import hero1 from "./Hero1.webp";
+// import hero1 from "./Hero1.webp";
 import hero2 from "./Hero2.webp";
 import hero3 from "./Hero3.webp";
 import hero4 from "./hero4.webp";
@@ -14,7 +14,6 @@ import client9 from "./client9.png";
 import client10 from "./client10.png";
 import client11 from "./client11.png";
 import client12 from "./client12.png";
-
 import notfound from "./404.png";
 import constraction from "./constraction.webm";
 import sparks from "./sparks.png";
@@ -33,12 +32,16 @@ import starts from "./starts.png";
 import datamedconnect from "./datamedconnect.png";
 import datamedacademy from "./datamedacademy.png";
 import tindercover from "./tindercover.png";
+import Hero1 from "./Hero1.png";
+import hrperson from "./hrperson.svg";
+import check from "./check.svg";
+import amelioration from "./amelioration.svg";
 
 // Export assets
 export const assets = {
   logoblue,
   logowhite,
-  hero1,
+  // hero1,
   hero2,
   hero3,
   hero5,
@@ -53,6 +56,10 @@ export const assets = {
   tindercover,
   starts,
   hero4,
+  Hero1,
+  hrperson,
+  check,
+  amelioration
 };
 
 // Export carousel clients
