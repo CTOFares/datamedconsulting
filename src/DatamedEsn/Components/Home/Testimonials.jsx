@@ -28,13 +28,15 @@ const testimonialsData = [
 const Testimonials = () => {
   return (
     <div>
-      <div className="sm:flex mt-[90px] space-y-6 p-4 mb-6 gap-6 items-center">
+      <div className="sm:flex mt-[90px] space-y-6 p-4 mb-6 gap-6 items-center sm:px-11">
         <div className="sm:w-1/3">
           <p className="text-black font-montserrat  text-2xl sm:text-4xl font-semibold leading-[100.402%] uppercase">
-            Ce que nos{" "}
-            <p className=" sm:text-start font-montserrat   font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
-            CLIENT   
-            </p>
+            Ce que nos <span></span>
+            <span className=" sm:text-start font-montserrat   font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
+              CLIENT
+            </span>
+          </p>
+          <p className="text-black font-montserrat  text-2xl sm:text-4xl font-semibold leading-[100.402%] uppercase">
             disent de nous
           </p>
         </div>
