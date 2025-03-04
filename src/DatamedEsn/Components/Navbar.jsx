@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-auto flex justify-between mt-5 mb-5 items-center text-white">
-      <div className="flex w-full border-2 justify-between">
+    <div className="w-auto flex justify-between mt-5 mb-5 items-center text-white  px-4 sm:px-20">
+      <div className="flex w-full   justify-between">
         <div className="flex gap-6 items-center">
           <NavLink to="/">
             <img src={assets.logoblue} alt="logo bleu" />
@@ -60,7 +60,7 @@ const Navbar = () => {
             </NavLink>
           </nav>
         </div>
-        <NavLink to="/esn/contact" className="border-2 hidden sm:block items-center justify-center">
+        <NavLink to="/esn/contact" className="  hidden sm:block items-center justify-center">
           <button  className="flex w-[174px] h-[48px] px-[19px] py-[13px] justify-center items-center gap-[10px] shrink-0 rounded-[14px] bg-[#173A6D]">
             Contactez Nous
           </button>
