@@ -9,20 +9,22 @@ import Testimonials from "../../Components/Home/Testimonials";
 import ConsultantSection from "../../Components/Home/ConsultantSection";
 import Subscribe from "../../Components/Home/Subscribe";
 import Clients from "../../Components/Home/Clients";
+import Hero3 from "../../Components/Home/Hero3";
 
 const Home = () => {
   return (
     <>
-      <div className="w-full min-h-screen flex flex-col px-4  sm:px-10">
-        <Navbar />
+      <div className="w-full min-h-screen flex flex-col ">
+        <Hero3/>  
+        {/* <Navbar /> */}
         {/* <Hero2/> */}
-        <Hero />
-        <Clients/>
+        {/* <Hero /> */}
         <Expertise />
         <Values />
         <Testimonials />
         <ConsultantSection />
         <Subscribe />
+        <Clients/>
         <Footer />
       </div>
     </>
