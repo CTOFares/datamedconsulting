@@ -32,7 +32,7 @@ import starts from "./starts.png";
 import datamedconnect from "./datamedconnect.png";
 import datamedacademy from "./datamedacademy.png";
 import tindercover from "./tindercover.png";
-import Hero1 from "./Hero1.png";
+import Hero1 from "./Hero1.webp";
 import hrperson from "./hrperson.svg";
 import check from "./check.svg";
 import amelioration from "./amelioration.svg";

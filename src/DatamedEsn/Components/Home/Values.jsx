@@ -64,7 +64,7 @@ const Values = () => {
           </svg>
           <p className="text-[#000] font-montserrat text-[16px] font-normal leading-[19.264px]">
             La quête du dépassement est au cœur de l'état d'esprit de Datamed
-            Consulting.
+            DATAMED CARE.
           </p>
         </div>
         <div className="w-[360px] h-[294px] flex-shrink-0 p-4 space-y-6 rounded-[10px] bg-[#FFFfFf] shadow-[0px_403px_113px_0px_rgba(23,58,109,0),0px_258px_103px_0px_rgba(23,58,109,0.01),0px_145px_87px_0px_rgba(23,58,109,0.05),0px_64px_64px_0px_rgba(23,58,109,0.09),0px_16px_35px_0px_rgba(23,58,109,0.1)]">
@@ -122,8 +122,8 @@ const Values = () => {
             </defs>
           </svg>
           <p className="text-[#000] font-montserrat text-[16px] font-normal leading-[19.264px]">
-            La quête du dépassement est au cœur de l'état d'esprit de Datamed
-            Consulting.
+            Equilibre et performance pour permettre à nos consultants de
+            s'épanouir.
           </p>
         </div>
         <div className="w-[360px] h-[294px] flex-shrink-0 p-4 space-y-6 rounded-[10px] bg-[#FFFfFf] shadow-[0px_403px_113px_0px_rgba(23,58,109,0),0px_258px_103px_0px_rgba(23,58,109,0.01),0px_145px_87px_0px_rgba(23,58,109,0.05),0px_64px_64px_0px_rgba(23,58,109,0.09),0px_16px_35px_0px_rgba(23,58,109,0.1)]">
@@ -131,7 +131,7 @@ const Values = () => {
             <img src={assets.amelioration} alt="" />
           </div>
           <p className="text-[#0E1F51] font-montserrat text-[20px] font-extrabold leading-[26px]">
-            Excellence
+            Amélioration continue
           </p>
 
           <svg
@@ -181,8 +181,7 @@ const Values = () => {
             </defs>
           </svg>
           <p className="text-[#000] font-montserrat text-[16px] font-normal leading-[19.264px]">
-            La quête du dépassement est au cœur de l'état d'esprit de Datamed
-            Consulting.
+            Notre progression est pilotée par l'amélioration continue.
           </p>
         </div>
       </div>
