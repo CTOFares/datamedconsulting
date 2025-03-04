@@ -11,53 +11,60 @@ const Navbar = () => {
 
   return (
     <div className="w-auto flex justify-between mt-5 mb-5 items-center text-white">
-      <div className="flex gap-6 items-center">
-        <NavLink to="/">
-          <img src={assets.logoblue} alt="logo bleu" />
-        </NavLink>
+      <div className="flex w-full border-2 justify-between">
+        <div className="flex gap-6 items-center">
+          <NavLink to="/">
+            <img src={assets.logoblue} alt="logo bleu" />
+          </NavLink>
 
-        <nav className="p-4 hidden sm:flex text-black gap-4">
-          <NavLink
-            to="/esn/Accueil"
-            className={({ isActive }) =>
-              `font-montserrat ${isActive ? "underline" : ""}`
-            }
-          >
-            Accueil
-          </NavLink>
-          <NavLink
-            to="/esn/carriere"
-            className={({ isActive }) =>
-              `font-montserrat ${isActive ? "underline" : ""}`
-            }
-          >
-            Carrière
-          </NavLink>
-          <NavLink
-            to="/esn/Actualités"
-            className={({ isActive }) =>
-              `font-montserrat ${isActive ? "underline" : ""}`
-            }
-          >
-            Actualités
-          </NavLink>
-          <NavLink
-            to="/esn/Expertise"
-            className={({ isActive }) =>
-              `font-montserrat ${isActive ? "underline" : ""}`
-            }
-          >
-            Expertises
-          </NavLink>
-          <NavLink
-            to="/esn/Contact"
-            className={({ isActive }) =>
-              `font-montserrat ${isActive ? "underline" : ""}`
-            }
-          >
-            Contact
-          </NavLink>
-        </nav>
+          <nav className="p-4 hidden sm:flex text-black gap-4">
+            <NavLink
+              to="/esn/Accueil"
+              className={({ isActive }) =>
+                `font-montserrat ${isActive ? "underline" : ""}`
+              }
+            >
+              Accueil
+            </NavLink>
+            <NavLink
+              to="/esn/carriere"
+              className={({ isActive }) =>
+                `font-montserrat ${isActive ? "underline" : ""}`
+              }
+            >
+              Carrière
+            </NavLink>
+            <NavLink
+              to="/esn/Actualités"
+              className={({ isActive }) =>
+                `font-montserrat ${isActive ? "underline" : ""}`
+              }
+            >
+              Actualités
+            </NavLink>
+            <NavLink
+              to="/esn/Expertise"
+              className={({ isActive }) =>
+                `font-montserrat ${isActive ? "underline" : ""}`
+              }
+            >
+              Expertises
+            </NavLink>
+            <NavLink
+              to="/esn/Contact"
+              className={({ isActive }) =>
+                `font-montserrat ${isActive ? "underline" : ""}`
+              }
+            >
+              Contact
+            </NavLink>
+          </nav>
+        </div>
+        <div className="border-2 items-center justify-center flex">
+          <button className="flex w-[174px] h-[48px] px-[19px] py-[13px] justify-center items-center gap-[10px] shrink-0 rounded-[14px] bg-[#173A6D]">
+            Contactez Nous
+          </button>
+        </div>
       </div>
       <div className="hidden sm:blockflex h-[45px] rounded-[14px] bg-[#FBE4E4] overflow-hidden">
         <div className="w-full px-4 flex items-center justify-center bg-[#173A6D] rounded-[14px]">
