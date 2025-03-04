@@ -4,8 +4,8 @@ import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-b pt-9 mt-9  from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] rounded-tr-[45px]">
-      <div className="sm:mx-4 items-center pt-6 sm:p-9 flex flex-col sm:flex-row sm:justify-between">
+    <div className="bg-gradient-to-b pt-9 mt-9  from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] mx-11 px-11 rounded-tr-[45px]">
+      <div className="  sm:mx- items-center pt-6 sm:pb-9 flex flex-col sm:flex-row sm:justify-between">
         <div>
           <img src={assets.logowhite} alt="Logo" />
         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-      <div className="sm:flex flex-col sm:p-9 mt-9 w-full">
+      <div className="sm:flex flex-col border-2  sm:py-9 mt-4 w-full">
         <h1 className="text-white text-center sm:text-start font-montserrat text-[40px] font-medium">
           Contact
         </h1>
@@ -112,8 +112,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="w-full h-[1px] bg-white my-8"></div>
-      <div className="sm:flex sm:justify-between sm:p-9 w-full pb-9">
+      <div className="w-full h-[1px]  bg-white my-4"></div>
+      <div className="sm:flex sm:justify-between   sm:py-9 w-full pb-9">
         <p className="text-white font-montserrat text-xl font-medium leading-normal text-center md:text-left">
           © 2025 - Datamed Consulting
         </p>
