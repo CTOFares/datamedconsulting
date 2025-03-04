@@ -4,7 +4,7 @@ import { assets } from "../../../assets/assets";
 const Hero = () => {
   return (
     <>
-      <div className="mt-6 relative">
+      <div className="mt-6 relative  px-4 sm:px-20">
         <img
           src={assets.hero3}
           className="rounded-[15px] h-[474px]  w-full object-cover"

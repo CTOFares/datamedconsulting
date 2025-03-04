@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="mt-20 px-4 sm:px-6 lg:px-8">
+    <div className="mt-20  lg:px-8  px-4 sm:px-20">
       <div className="w-full space-y-4 flex flex-col items-center justify-center mb-4 text-center">
         <p className="text-[30px] sm:text-[40px] font-poppins font-semibold uppercase leading-[120.402%] text-center text-black">
           À la recherche d'un nouveau <br />

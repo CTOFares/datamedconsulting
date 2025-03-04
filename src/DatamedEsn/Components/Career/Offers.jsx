@@ -7,7 +7,7 @@ const Offers = () => {
   const navigate = useNavigate(); // ✅ Define navigate function
 
   return (
-    <div className="space-y-9 mt-9 mb-5">
+    <div className="space-y-9 mt-9 mb-5  px-4 sm:px-20">
       <div className="flex items-center justify-between w-full">
         <p className="text-[30px] sm:text-[40px] font-montserrat uppercase font-semibold leading-[120.402%] text-center bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
           Nos Offres

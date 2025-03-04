@@ -3,7 +3,7 @@ import Element from "../Career/Element";
 
 const Main = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-9 mb-9 space-y-20">
+    <div className="flex flex-col items-center justify-center mt-9 mb-9 space-y-20 px-4 sm:px-20">
       <p className="text-black sm:w-1/2   text-center font-montserrat text-[16px] sm:text-[20px] font-normal leading-[120.402%]">
         Your Text Here DATAMED Consulting permet d'anticiper les futures
         technologies et d'appréhender les grands changements en matière de

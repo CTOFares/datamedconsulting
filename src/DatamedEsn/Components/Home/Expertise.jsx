@@ -3,15 +3,15 @@ import Element from "./Element";
 
 const Expertise = () => {
   return (
-    <div className="  sm:pt-[50px]">
-      <div className="sm:flex p-3 sm:p-4 mb-6  sm:gap-6">
-        <p className=" sm:text-center font-montserrat  text-2xl sm:text-4xl font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
+    <div className="  sm:pt-[50px]  sm:px-10">
+      <div className="p-3 space-y-4 sm:p-4 mb-6 items-center justify-center text-center sm:gap-6">
+        <h1 className="text-center font-montserrat text-[40px] font-semibold leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
           EXPERTISE
-        </p>
+        </h1>
         <p className=" text-black font-montserrat text-base font-normal leading-[19.264px]">
           DATAMED Consulting permet d'anticiper les futures technologies et
-          d'appréhender les grands changements en matière de digital et
-          d'innovation. <br />
+          d'appréhender <br />
+          les grands changements en matière de digital et d'innovation. <br />
           Nous vous accompagnons également sur tous vos projets d'infrastructure
           et de management de projet.
         </p>

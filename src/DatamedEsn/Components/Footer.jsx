@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-b pt-9 mt-9  from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] mx-11 px-11 rounded-tr-[45px]">
+    <div className="bg-gradient-to-b pt-9 mt-9 from-[#205198] to-[#0B1B32] text-white rounded-tl-[45px] mx-11 px-11 rounded-tr-[45px]">
       <div className="  sm:mx- items-center pt-6 sm:pb-9 flex flex-col sm:flex-row sm:justify-between">
         <div>
           <img src={assets.logowhite} alt="Logo" />
@@ -96,7 +96,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-      <div className="sm:flex flex-col border-2  sm:py-9 mt-4 w-full">
+      <div className="sm:flex flex-col    sm:py-9 mt-4 w-full">
         <h1 className="text-white text-center sm:text-start font-montserrat text-[40px] font-medium">
           Contact
         </h1>

@@ -7,20 +7,17 @@ const MainContact = () => {
   }, []);
 
   return (
-    <div className="flex flex-col sm:flex-row justify-end mt-9 gap-4 px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col sm:flex-row justify-end mt-9 gap-4  lg:px-8 border-2 px-4 sm:mx-20">
       <div className="sm:w-1/2 mb-4 sm:mb-0">
         <h1 className="text-[30px] sm:text-[40px] font-montserrat font-semibold mb-4 uppercase leading-[120.402%] bg-gradient-to-r from-[#16386C] to-[#2B6DD2] bg-clip-text text-transparent">
           CONTACTER-Nous
         </h1>
-
-
         <a
           className="text-[16px] font-montserrat font-normal leading-[120.402%] text-black"
           href="#"
         >
           Vous souhaitez échanger ? Nous rencontrer ? C'est ici !
         </a>
-
       </div>
       <div className="w-full sm:w-1/2 space-y-4">
         <form onSubmit={handleSubmit} className="space-y-4">

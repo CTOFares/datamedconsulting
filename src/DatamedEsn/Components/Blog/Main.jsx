@@ -7,7 +7,7 @@ const Main = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="my-11 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="my-11 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  px-4 sm:px-20">
       {blogs.map((blog) => (
         <div
           key={blog.id}

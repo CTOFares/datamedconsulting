@@ -25,7 +25,7 @@ const ConsultantSection = () => {
   }, []);
 
   return (
-    <div className="mb-9 mt-[90px] sm:flex gap-4 rounded p-4">
+    <div className="mb-9 mt-[90px] sm:flex gap-4 rounded p-4  sm:mx-10">
       <div className="sm:w-1/2 mb-8 space-y-4">
         <div className="sm:w-1/é">
           <p className="text-black font-montserrat  text-2xl sm:text-4xl font-semibold leading-[100.402%] uppercase">

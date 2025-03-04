@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <div className="p-8 sm:p-10 mb-11 space-y-4 text-center justify-center items-center rounded-[15px] bg-white shadow-lg">
+    <div className="p-8 sm:p-10 mb-11 space-y-4 text-center justify-center items-center rounded-[15px] mx-11 bg-white shadow-lg">
       <div className="space-y-4">
         <p className="font-montserrat text-[24px] sm:text-[40px] font-semibold leading-[48.161px] uppercase bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
           Abonnez-vous à notre <br /> actualité

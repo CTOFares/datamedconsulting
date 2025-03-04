@@ -13,7 +13,7 @@ const Clients = () => {
   }, []);
 
   return (
-    <div className="sm:p-[20px] my-9 sm:my-0 px-[10px]">
+    <div className="sm:p-[20px] my-9 sm:my-0 px-[10px]  sm:px-10">
       <div className="rounded-[15px] gap-6 sm:flex p-9  border ">
         <div className="w-full sm:w-1/5 border-[rgba(0,0,0,0.10)]">
           <p className="font-montserrat text-[20px] sm:text-[40px] font-semibold sm:leading-[48.161px] bg-gradient-to-r from-[#173A6D] to-[#2D70D3] bg-clip-text text-transparent">
