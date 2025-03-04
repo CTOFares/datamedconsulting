@@ -7,7 +7,7 @@ import Offers from "../../Components/Career/Offers";
 
 const Career = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col px-4 sm:px-20">
+    <div className="w-full min-h-screen flex flex-col">
       <Navbar />
       <Hero />
       <Contact />
